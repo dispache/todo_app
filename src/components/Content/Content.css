@@ -1,0 +1,80 @@
+.content__header {
+	margin-left: 50px;
+	letter-spacing: 2px;
+	word-wrap: break-word;
+	cursor: default;
+}
+.content__list {
+	margin-left: 60px;
+	font-size: 16px;
+	opacity: 0.6;
+	height: 235px;
+	overflow-y: auto;
+	margin-right: 5px;
+}
+::-webkit-scrollbar {
+    width: 10px; 
+    height: 8px; 
+    background-color: #cc33ff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #843465;
+    border-radius: 2em;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #253861;
+}
+.content__addTask {
+	margin-left: 60px;
+	margin-top: 155px;
+	position: fixed;
+	bottom: 70px;
+}
+.content__addTaskInput {
+	border-radius: 35px;
+	height: 35px;
+	width: 250px;
+	outline: none;
+	border: none;
+	background-color: #f2ccff;
+	border-bottom: 2px solid #990099;
+	letter-spacing: 1.5px;
+	padding: 0 35px;
+}
+.addTaskIcon {
+	margin-left: 15px;
+	width: 2em;
+	opacity: 0.6;
+	position: fixed;
+	bottom: 73px;
+	cursor: pointer;
+}
+.taskItem:hover {
+	text-decoration: none;
+	opacity: 1;
+	cursor: default;
+}
+.taskItem {
+	padding: 2px 2px;
+}
+.taskCompleteIcon {
+	margin-left: auto;
+  	margin-right: 0em;
+  	opacity: 0;
+  	width: 1.5em;
+  	cursor: pointer;
+}
+.taskItem:hover > .taskCompleteIcon {
+	opacity: 1;
+}
+.editTitlePen {
+	margin-left: 20px;
+	cursor: pointer;
+}
+h2 {
+	margin-top: 100px;
+	opacity: 0.6;
+}
